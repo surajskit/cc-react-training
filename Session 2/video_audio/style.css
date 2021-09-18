@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(250, 243, 234);
+}
+#video{
+    text-align: center;
+   
+}
+
+#audio{
+    text-align: center;
+    background-color: aquamarine;
+   
+}
+/* #audio source{
+    color: blue;
+
+} */
