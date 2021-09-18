@@ -1,0 +1,65 @@
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: #cfe0ee;
+    font-family: sans-serif;
+    outline: none;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;  /*at the top center */
+    align-items: center;  /* at the center of the page */
+
+} 
+.calculator{
+    border: 3px solid rgba(41, 32, 32, 0.726);
+    background-color: #f7f7ec;
+    padding: 15px;
+    border-radius: 30px;
+    display: grid; 
+    grid-template-columns: repeat(4,68px);
+}
+
+input{
+    grid-column: span 4; /* first cell will be equal in width of other 4 cell i.e input cell width is equal to 4 other cells width */
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3;
+    border: 2px solid rgba(41, 32, 32, 0.726);   /* remove in border of input cell*/
+    border-radius: 23px;
+    color: rgb(70,70,70);
+    font-size: 50px;
+    text-size: 50px;
+    text-align: end; /* input value will start from right side */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #3788c2;
+    box-shadow: -5px -5px 12px #0c0106,
+                   5px 5px 12px rgba(54, 112, 15, 0.16);
+    border: 1px solid black;
+    border-radius: 25%;
+    margin: 8px;
+    font-size: 20px;
+}
+
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    background-color: #3788c2;
+    box-shadow: -5px -5px 12px #0c0106,
+    5px 5px 12px rgba(54, 112, 15, 0.16);
+}
