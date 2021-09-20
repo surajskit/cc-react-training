@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>suraj singh</title>
+</head>
+<body>
+	<h3>
+		2: Write a function which camelizes input word
+	</h3>
+
+</body>
+<script>
+	camelize = function camelize(str) {
+      return str.replace(/\W+(.)/g, function(match, chr)
+       {
+            return chr.toUpperCase();
+        });
+    }
+
+console.log(camelize("background-color"));
+console.log(camelize("list-style-image"));
+console.log(camelize("-webkit-transition"));
+
+</script>
+</html>

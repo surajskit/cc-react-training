@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>suraj singh</title>
+    </head>
+  <body>
+      <h3>
+        3: Given the following list of items
+      </h3>
+      <p>
+        [1,33,99,50,100,150,60,99,1000,999,0,-1,10], write a function which returns an array
+        that contains all numbers more than or equal to 150
+        <br>
+        <br>
+      </p>
+ </body>
+ <script>
+    var num =[1,33,99,50,100,150,60,99,1000,999,0,-1,10];
+    document.write("The numbers are :-",num+"<br><br>");
+    var b = num.filter(checknumbers);
+    document.write("Numbers more than or equal to 150 are :-",b+"<br><br>");
+    function checknumbers(number){
+        return number >= 150;
+    }
+</script>
+</html>
+
+
