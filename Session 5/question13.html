@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suraj singh </title>
+</head>
+<body>
+    <h3>
+        13: Delay with a promise
+    </h3>
+    <p>
+        We know that setTimeout() uses a callback.
+Create a promise based alternative.
+The function named delay(ms) should return a promise.
+We should be able to achieve something like this:
+delay(3000).then(() => alert('Should alert after 3 seconds'))
+
+    </p>
+</body>
+<script>
+ function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+delay(3000).then(() => alert('The message runs after 3 seconds'));
+</script>
+</html>

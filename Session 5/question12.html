@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suraj singh</title>
+</head>
+<body>
+    <h3>
+       12: Write a simple print() function that accepts a callback, which gets called after 3 seconds.
+       The callback function could be anything that prints out on the screen.
+    </h3>
+    <p>
+        Example the message function is being called after something happened 
+        (after 3 seconds passed for this example), but not before. So the message function is an example of a callback function.
+    </p>
+</body>
+<script>
+    const message = function() {  
+    console.log("This message is shown after 3 seconds");
+}
+ 
+setTimeout(message, 3000);
+</script>
+</html>
