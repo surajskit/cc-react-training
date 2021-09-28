@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  
+  html {
+    background: rgb(51, 84, 87);
+  }
+
+  .subtle {
+    color: #aaa;
+  }
+  
+  .main-card--cointainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    grid-gap: 30px;
+    justify-content: space-around;
+  }
+  
+  .card-container {
+    margin: 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .card {
+    background-color: rgb(13, 39, 70);
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-body {
+    display: inline-block;
+  }
+  
+  .card-number {
+    margin-top: 15px;
+  }
+  
+  .card-circle {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+  }
+  
+  .card-author {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin: 15px 10px;
+    text-transform: uppercase;
+  }
+  
+  .card-title {
+    color:goldenrod;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: 10px 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-description {
+    /* display: inline-block; */
+    font-weight: 300;
+    line-height: 22px;
+    margin: 10px 10px;
+  }
+  
+  .card-read {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin: 5px 0 20px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  
+  /* ---------- Button styles ------------------ */
+  
+  .navbar {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .navbar h1 {
+    padding-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  /** button group styles **/
+  .btn-group {
+    
+    border-radius: 1rem;
+    text-transform: capitalize;
+  }
+  .btn-group__item {
+    border: 2px solid black;
+    border-radius: 20px;
+    color: goldenrod;
+    padding: 10px 30px;
+    background-color: rgb(13, 39, 70);
+    cursor: pointer;
+    margin: 6px;
+    font-size: 1.5rem;
+  }
+  
